@@ -167,9 +167,11 @@ button{
 
 }
 /*img */
-.img{
+#imgA{
     padding: 0 5rem;
     gap: 2rem;
+    height:200px;
+    width:300px;
 
 }
 /*footer*/
@@ -179,6 +181,10 @@ footer{
    margin:2rem 4rem ;
    justify-content: space-between;
    
+}
+#logo{
+  width: 200px;
+  height:200px;
 }
 
 .footer-data-left{
@@ -248,7 +254,7 @@ footer{
 
   #anatoim{
     width:400px; 
-    height:300px;
+    height:400px;
     margin: 10px 10px 10px 15px;
   }
   .anatotext{
@@ -275,11 +281,67 @@ footer{
   .function{
     padding: 10px 20px;
   }
-  #id{
+  #small{
     width:300px;
-    height:250px
+    height:250px;
   }
-  
- 
+  #large{
+    width:300px;
+    height:250px;
+    float: right;
+  }
+  #nut{
+    border-radius: 25%;
+    width:100px;
+    height:150px;
+    float: left;
+    margin-right: 5rem;
     
- 
+  }
+  a {
+    color: rgb(59, 204, 66);
+    
+  }
+  #stom{
+    border-radius: 25%;
+    width:100px;
+    height:150px;
+    float:right;
+    margin-right: 5rem;
+    margin-right:2px;
+
+  }
+  .ref{
+    font-size:xx-small;
+  }
+
+  /* Gastrointestinal Diseases*/
+
+  .desestitle{
+    text-align: center;
+    margin-top: 2rem;
+  }
+  .colo{
+    font-size: smaller;
+  }
+  .medication{
+    padding-top: 3rem;
+    padding-left: 10rem;
+    padding-right: 10rem;
+     background-color:#fff;
+
+  }
+  .medi{
+    text-align:center;
+    margin-bottom:2rem;
+  }
+    
+ table,thead,th,td{
+  margin: 2px;
+ border: 1px solid black;
+ }
+ .mediA{
+  width: 150px;
+  height: 150px;
+ }
+
