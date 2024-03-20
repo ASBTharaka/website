@@ -310,8 +310,11 @@ footer{
     width:400px;
     height: 300px;
     row-gap: 5rem;
+    margin-right: 150px;
     
   }
+
+  
   .function{
     padding: 10px 20px;
   }
@@ -339,7 +342,7 @@ footer{
     
   }
   a {
-    color: rgb(59, 204, 66);
+    color: rgb(21, 2, 131);
     
   }
   #stom{
@@ -354,6 +357,9 @@ footer{
   .ref{
     font-size:xx-small;
   }
+.reference{
+  font-size:x-small;
+}
 
   /* Gastrointestinal Diseases*/
   .body{
@@ -363,6 +369,29 @@ footer{
      background-color:#fff;
      margin: 0px;
   }
+
+  .factors{
+    display: flex;
+    flex-direction: row;
+  }
+
+  #dione{
+    width: 400px;
+    height: 300px;
+    margin:30px;
+  }
+
+   .constipation{
+    display: flex;
+    flex-direction: row;
+   }
+
+   #consti{
+   
+    width:400px;
+    height:300px;
+    margin: 30px;
+   }
 
   .title{
     text-align: center;
@@ -384,9 +413,57 @@ footer{
  }
  .main1{
     margin: 0px;
-    padding:5rem;
+    padding:2rem;
     background-color:Grey;
+   
  }
- 
+.introduction{
+  margin-top: 4rem;
+}
+ /*pages  fotter*/
+
+ .pages-footer{
+  height:400px;
+  display: flex;
+  flex-direction: row;
+  margin:2rem 5px ;
+  justify-content: space-between;
+  background-color: #abb2b9 ;
+ }
+
+ .footer-data-left-pages{
+  width: 30%;
+  
+  
+ }
+
+ .footerp3{
+  font-size: 0.8rem;
+    margin: 3rem;
+   
+ }
+ .footerp4{
+  font-size: 0.8rem;
+  margin-left: 3rem;
+ }
+
+ #logo-pages{
+  width: 200px;
+  height:200px;
+  margin-left: 3rem;
+ }
+
+ .footer-data-right-pages{
+  width: 40;
+  display: flex;
+  flex-direction: row;
+  gap: 5rem;
+ }
+
+ .footer-data-pages{
+  font-size: 150%;
+  margin: 4rem;
+  margin-top: 6rem;
+ }
  
 
