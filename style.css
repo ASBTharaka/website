@@ -402,6 +402,28 @@ footer{
   .colo{
     font-size: smaller;
   }
+
+  .bowel{
+    display: flex;
+    flex-direction: row;
+  }
+  #boweld{
+    margin-top: 0pxs;
+    margin-left: 50px;
+    width:400px;
+    height:250px;
+   
+  }
+  .diarrhea{
+    display: flex;
+    flex-direction:column;
+  }
+  .vomiting{
+    display: flex;
+    flex-direction: row;
+  }
+
+ 
      
  table,thead,th,td{
   margin: 2px;
