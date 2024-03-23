@@ -373,6 +373,8 @@ footer{
   .factors{
     display: flex;
     flex-direction: row;
+    margin-left: 100px;
+  
   }
 
   #dione{
@@ -384,6 +386,7 @@ footer{
    .constipation{
     display: flex;
     flex-direction: row;
+    
    }
 
    #consti{
@@ -421,13 +424,30 @@ footer{
   .vomiting{
     display: flex;
     flex-direction: row;
+    gap: 400px;
+   
   }
-
+  .cancer{
+    display: flex;
+    flex-direction: row;
+  }
+   #can{
+    width: 350px;
+    height: 350px;
+   }
  
+ tr:nth-child(even) {
+  background-color:wheat;
+}
      
  table,thead,th,td{
   margin: 2px;
  border: 1px solid black;
+ width: 100%;
+ }
+
+ .head{
+  font-size: medium;
  }
  .mediA{
   width: 150px;
@@ -435,7 +455,7 @@ footer{
  }
  .main1{
     margin: 0px;
-    padding:2rem;
+    padding:5rem;
     background-color:Grey;
    
  }
@@ -461,7 +481,7 @@ footer{
 
  .footerp3{
   font-size: 0.8rem;
-    margin: 3rem;
+    margin: 1rem;
    
  }
  .footerp4{
@@ -472,7 +492,7 @@ footer{
  #logo-pages{
   width: 200px;
   height:200px;
-  margin-left: 3rem;
+ 
  }
 
  .footer-data-right-pages{
@@ -483,9 +503,10 @@ footer{
  }
 
  .footer-data-pages{
-  font-size: 150%;
+  font-size:large;
   margin: 4rem;
   margin-top: 6rem;
  }
+ 
  
 
