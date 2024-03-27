@@ -517,6 +517,13 @@ div.scroll-container img {
   margin: 4rem;
   margin-top: 6rem;
  }
- 
- 
+ /*prevention page*/
+
+ .pre{
+    display: flex;
+    flex-direction: row;
+    width: 300px;
+    height: 300px;
+    gap:300px;
+ }
 
