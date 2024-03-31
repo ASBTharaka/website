@@ -308,7 +308,39 @@ ul li a{
 .diso:hover{
     color: #0f0ff0;
 }
-   
+
+.about{
+  
+  text-align: center;
+  padding: 30px  0;
+ margin-left: 100px;
+ margin-right: 100px;
+ margin-bottom: 100px;
+}
+
+.about h4{
+  margin-bottom: 50px;
+  margin-top: 20px;
+  font-weight: 600;
+ 
+ 
+}
+
+
+/*social media icon*/
+.social-icons {
+  display: flex;
+  justify-content: center;
+}
+
+.social-icons a {
+  margin: 0 10px; /* Adjust spacing between icons */
+}
+
+.social-icons img {
+  width: 50px; /* Adjust the size of the icons */
+  height: auto;
+}
 
   /*Introduction page*/
  
@@ -575,6 +607,10 @@ div.scroll-container img {
   font-size:large;
   margin: 4rem;
   margin-top: 6rem;
+ }
+
+ .footer-data-pages a{
+    text-decoration: none;
  }
  /*prevention page*/
 
